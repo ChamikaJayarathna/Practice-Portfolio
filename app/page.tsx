@@ -1,3 +1,4 @@
+import Approach from '@/components/Approach';
 import Clients from '@/components/Clients';
 import Experience from '@/components/Experience';
 import Grid from '@/components/Grid';
@@ -17,6 +18,7 @@ const HomePage = () => {
         <RecentProjects/>
         <Clients />
         <Experience />
+        <Approach />
       </div>
     </main>
   )
